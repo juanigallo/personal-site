@@ -1,0 +1,21 @@
+.articlesContainer {
+  width: 1200px;
+  margin: auto;
+  h4 {
+    text-align: center;
+    font-size: 32px;
+  }
+  .articlesContentContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 800px) {
+  .articlesContainer {
+    width: 100%;
+    .articlesContentContainer {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "",
+    "role": "CEO & Founder",
+    "from": "Enero 2019",
+    "to": "Actualidad",
+    "logo": "courseit.png"
+  },
+  {
+    "name": "Digiventures",
+    "role": "Technical Lead",
+    "from": "Diciembre 2018",
+    "to": "Actualidad",
+    "logo": "digiventures.png"
+  },
+  {
+    "name": "",
+    "role": "Engineering Manager",
+    "from": "Enero 2018",
+    "to": "Septiembre 2018",
+    "logo": "tiendanube.png"
+  },
+  {
+    "name": "Globant",
+    "role": "Sr Frontend Dev",
+    "from": "Enero 2015",
+    "to": "Agosto 2015",
+    "logo": "globant.png"
+  },
+  {
+    "name": "GlobalLogic",
+    "role": "Sr Frontend Dev",
+    "from": "Agosto 2015",
+    "to": "Diciembre 2015",
+    "logo": "globallogic.png"
+  },
+  {
+    "name": "Garbarino",
+    "role": "Technical Lead",
+    "from": "Diciembre 2015",
+    "to": "Enero 2018",
+    "logo": "garbarino.png"
+  }
+]
