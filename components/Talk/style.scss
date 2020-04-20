@@ -8,7 +8,7 @@
 
 .articleContainer {
   max-width: 350px;
-  height: 320px;
+  height: 290px;
   box-shadow: $shadow;
   border-radius: 5px;
   overflow: hidden;
@@ -24,8 +24,9 @@
   .content {
     margin: 5px 20px 20px 20px;
     h5 {
-      font-size: 22px;
+      font-size: 18px;
       font-weight: normal;
+      margin-top: 15px;
     }
     p {
       line-height: 1.5;

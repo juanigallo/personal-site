@@ -8,7 +8,7 @@ function Navbar() {
       duration: 500,
       delay: 50,
       smooth: true,
-      offset: 0
+      offset: 0,
     });
   }
 
@@ -17,9 +17,9 @@ function Navbar() {
       <ul>
         <li onClick={() => handleClick("description")}>Sobre mi</li>
         <li onClick={() => handleClick("experience")}>Experiencia</li>
-        <h2>JG</h2>
+        <h2>JIG</h2>
         <li onClick={() => handleClick("articles")}>Articulos</li>
-        <li>Contacto</li>
+        <li onClick={() => handleClick("talks")}>Charlas</li>
       </ul>
     </nav>
   );

@@ -5,6 +5,7 @@ import "../style.scss";
 import Description from "../components/Description";
 import Articles from "../components/Articles";
 import Experience from "../components/Experience";
+import Talks from "../components/Talks";
 import Footer from "../components/Footer";
 import * as Scroll from "react-scroll";
 
@@ -26,6 +27,9 @@ function Index() {
       </Scroll.Element>
       <Scroll.Element name="articles">
         <Articles />
+      </Scroll.Element>
+      <Scroll.Element name="talks">
+        <Talks />
       </Scroll.Element>
       <Footer />
     </React.Fragment>

@@ -3,7 +3,7 @@ const withCSS = require("@zeit/next-css");
 
 module.exports = withCSS(
   withSass({
-    publicRuntimeConfig: {
+    env: {
       backend_url: process.env.NODE_ENV ? process.env.NODE_ENV : "dev"
     },
     cssModules: true,
