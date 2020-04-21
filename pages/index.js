@@ -17,6 +17,7 @@ function Index() {
           href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap"
           rel="stylesheet"
         />
+        <title>Juani Gallo</title>
       </Head>
       <Navbar />
       <Scroll.Element name="description">
