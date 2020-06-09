@@ -17,9 +17,9 @@ function Index() {
           href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap"
           rel="stylesheet"
         />
-        <title>Juani Gallo</title>
+        <title>Juani Gallo - Programador fullstack</title>
       </Head>
-      <Navbar />
+      <Navbar samePage={true} />
       <Scroll.Element name="description">
         <Description />
       </Scroll.Element>

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss";
 import * as Scroll from "react-scroll";
 
-function Navbar() {
+function Navbar(props) {
   function handleClick(name) {
     Scroll.scroller.scrollTo(name, {
       duration: 500,
@@ -15,11 +15,24 @@ function Navbar() {
   return (
     <nav>
       <ul>
-        <li onClick={() => handleClick("description")}>Sobre mi</li>
-        <li onClick={() => handleClick("experience")}>Experiencia</li>
-        <h2>JIG</h2>
-        <li onClick={() => handleClick("articles")}>Articulos</li>
-        <li onClick={() => handleClick("talks")}>Charlas</li>
+        {props.samePage ? (
+          <React.Fragment>
+            <li onClick={() => handleClick("description")}>Sobre mi</li>
+            <li onClick={() => handleClick("experience")}>Experiencia</li>
+            <h2>JIG</h2>
+            <li onClick={() => handleClick("articles")}>Articulos</li>
+            <a target="_blank" href="/stream"><li>Stream</li></a>
+          </React.Fragment>
+        ) : (
+            <React.Fragment>
+              <a href="/"><li>Sobre mi</li></a>
+              <a href="/"><li onClick={() => handleClick("experience")}>Experiencia</li></a>
+              <h2>JIG</h2>
+              <a href="/"><li onClick={() => handleClick("articles")}>Articulos</li></a>
+              <a target="_blank" href="/stream"><li>Stream</li></a>
+            </React.Fragment>
+          )}
+
       </ul>
     </nav>
   );
